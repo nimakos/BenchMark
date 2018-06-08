@@ -49,7 +49,7 @@ public class Main {
 
         int cpuCount = Runtime.getRuntime().availableProcessors();
         System.out.println("Εντοπίστηκαν "+ cpuCount + " λογικοί επεξεργαστές...");
-        for (int i=1;i <= cpuCount; i++){
+        for (int i=1;i <= cpuCount ; i++){
             PrimeCalc p = new PrimeCalc();
             System.out.println("Έναρξη "+i+"ου νήματος...");
             p.start();
